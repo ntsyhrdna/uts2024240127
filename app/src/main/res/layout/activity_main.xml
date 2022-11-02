@@ -23,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:hint="Nama Lengkap"
+        android:inputType="text"
         android:layout_below="@id/tv_form_pendf"/>
 
     <EditText
@@ -30,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
+        android:inputType="number"
         android:hint="Nomor Pendaftaran"
         android:layout_below="@id/et_nama_lengkap"/>
 
